@@ -6,6 +6,12 @@
 *.user
 *.sln.docstates
 
+workspace.xml
+profiles_settings.xml
+encodings.xml
+vcs.xml
+
+
 # Build results
 /[Dd]ebug/
 /[Dd]ebugPublic/
@@ -76,7 +82,7 @@ _ReSharper*/
 # NuGet Packages
 *.nupkg
 # The packages folder can be ignored because of Package Restore
-**/packages/*
+#**/packages/*
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
 # If using the old MSBuild-Integrated Package Restore, uncomment this:
@@ -88,32 +94,56 @@ csx/
 
 # Windows Store app package directory
 AppPackages/
-OCP/Spoilers/UnitTest/bin/
-OCP/Spoilers/CentralCommand/bin/
-OCP/Spoilers/CentralCommand/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
-OCP/Spoilers/CentralCommand/obj/
-OCP/Spoilers/MarsRoverKata/obj/
-OCP/Spoilers/UnitTest/obj/
-OCP/Spoilers/MarsRoverKata/bin/
-OCP/Solution/CentralCommand/bin/ATDD_and_MVC.dll
-OCP/Solution/UnitTest/obj/
-OCP/Solution/CentralCommand/obj/
-OCP/Solution/CentralCommand/bin/
-OCP/Solution/UnitTest/bin/
-OCP/Solution/MarsRoverKata/obj/
-OCP/Solution/MarsRoverKata/bin/
 
-LSP+ISP/Spoilers/UnitTest/bin/
-LSP+ISP/Spoilers/CentralCommand/bin/
-LSP+ISP/Spoilers/CentralCommand/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
-LSP+ISP/Spoilers/CentralCommand/obj/
-LSP+ISP/Spoilers/MarsRoverKata/obj/
-LSP+ISP/Spoilers/UnitTest/obj/
-LSP+ISP/Spoilers/MarsRoverKata/bin/
-LSP+ISP/Solution/CentralCommand/bin/ATDD_and_MVC.dll
-LSP+ISP/Solution/UnitTest/obj/
-LSP+ISP/Solution/CentralCommand/obj/
-LSP+ISP/Solution/CentralCommand/bin/
-LSP+ISP/Solution/UnitTest/bin/
-LSP+ISP/Solution/MarsRoverKata/obj/
-LSP+ISP/Solution/MarsRoverKata/bin/
+Kata/C#/MarsRover/MarsRoverMunged/bin/
+Kata/C#/MarsRover/MarsRoverMunged/obj/
+
+SRP/C#_Final/CentralCommand/bin/
+SRP/C#_Final/CentralCommand/obj/
+SRP/C#_Final/MarsRoverKata/bin/
+SRP/C#_Final/MarsRoverKata/obj/
+SRP/C#_Final/UnitTest/bin/
+SRP/C#_Final/UnitTest/obj/
+SRP/C#_Exercise/CentralCommand/bin/
+SRP/C#_Exercise/CentralCommand/obj/
+SRP/C#_Exercise/MarsRoverKata/bin/
+SRP/C#_Exercise/MarsRoverKata/obj/
+
+OCP/C#_Final/CentralCommand/bin/
+OCP/C#_Final/CentralCommand/obj/
+OCP/C#_Final/MarsRoverKata/bin/
+OCP/C#_Final/MarsRoverKata/obj/
+OCP/C#_Final/UnitTest/bin/
+OCP/C#_Final/UnitTest/obj/
+OCP/C#_Exercise/CentralCommand/bin/
+OCP/C#_Exercise/CentralCommand/obj/
+OCP/C#_Exercise/MarsRoverKata/bin/
+OCP/C#_Exercise/MarsRoverKata/obj/
+OCP/C#_Exercise/UnitTest/bin/
+OCP/C#_Exercise/UnitTest/obj/
+
+LSP+ISP/C#_Final/CentralCommand/bin/
+LSP+ISP/C#_Final/CentralCommand/obj/
+LSP+ISP/C#_Final/MarsRoverKata/bin/
+LSP+ISP/C#_Final/MarsRoverKata/obj/
+LSP+ISP/C#_Final/UnitTest/bin/
+LSP+ISP/C#_Final/UnitTest/obj/
+LSP+ISP/C#_Exercise/CentralCommand/bin/
+LSP+ISP/C#_Exercise/CentralCommand/obj/
+LSP+ISP/C#_Exercise/MarsRoverKata/bin/
+LSP+ISP/C#_Exercise/MarsRoverKata/obj/
+LSP+ISP/C#_Exercise/UnitTest/bin/
+LSP+ISP/C#_Exercise/UnitTest/obj/
+
+DIP/C#_Final/CentralCommand/bin/
+DIP/C#_Final/CentralCommand/obj/
+DIP/C#_Final/MarsRoverKata/bin/
+DIP/C#_Final/MarsRoverKata/obj/
+DIP/C#_Final/UnitTest/bin/
+DIP/C#_Final/UnitTest/obj/
+DIP/C#_Exercise/CentralCommand/bin/
+DIP/C#_Exercise/CentralCommand/obj/
+DIP/C#_Exercise/MarsRoverKata/bin/
+DIP/C#_Exercise/MarsRoverKata/obj/
+DIP/C#_Exercise/UnitTest/bin/
+DIP/C#_Exercise/UnitTest/obj/
